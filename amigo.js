@@ -13,10 +13,10 @@ function animate(){
   if(reset){
     a = document.getElementById('inputa').value;
     //document.write("your secret friend is: "+array[code[a]]);
-    alert("Test inside if reset: "+array[code[a]]);
+    alert("Your secret friend is: "+array[code[a]]);
     reset = false;
   }
-  alert("your secret friend is: "+array[code[a]]);
+  //alert("your secret friend is: "+array[code[a]]);
     
   //animate();
   //setTimeout("animate();",10);
