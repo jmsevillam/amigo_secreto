@@ -16,7 +16,7 @@ function animate(){
     alert("Test");
     reset = false;
   }
-  alert("Test");
+  alert("your secret friend is: "+array[code[a]]);
     
   animate();
   //setTimeout("animate();",10);
