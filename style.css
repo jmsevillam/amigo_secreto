@@ -4,7 +4,7 @@ body {
     background: #FFFFFF;
     background-image: url('background.jpg');
     background-size: cover;
-    padding: 30%; /*%100px;*/
+    padding: 100px;*/
     font-family: 'Open Sans', sans-serif;
     color: #000;
     display: grid;
