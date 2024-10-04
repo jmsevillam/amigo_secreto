@@ -13,8 +13,6 @@ function animate(){
     a = document.getElementById('inputa').value;
     //document.writeln("your secret friend is: "+array[code[a]], 10, 90);
     $.font = "50px Arial";
-    $.fillStyle = "rgb(256,256,256)";
-    $.fillRect (0, 0, 600, 600);
     $.fillStyle = "red";
     $.fillText("your secret friend is: "+array[code[a]]);
     var charStr = String.fromCharCode("your secret friend is: "+array[code[a]]);
