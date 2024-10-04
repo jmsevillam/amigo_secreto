@@ -16,7 +16,10 @@ function animate(){
     $.fillStyle = "red";
     $.fillText("your secret friend is: "+array[code[a]]);
     var charStr = String.fromCharCode("your secret friend is: "+array[code[a]]);
-    alert(charStr);
+    alert("Test");
+
+
+    
     reset = false;
   }
   
