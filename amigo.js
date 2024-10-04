@@ -1,6 +1,6 @@
 var a = 1
 var reset = false;
-var array = ["a", "b", "c"];
+var array = ["Diego","Mafe","Sharon","Naomi","Francesca","Rodrigo","Maria Micheva", "Mareike","Max","Robin","Nancy","Emilie","Mao", "María Martínez", "Anton"];
 
 function animate(){
 
