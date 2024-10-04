@@ -12,17 +12,7 @@ function animate(){
 //assign inputs to variables on reset (new drawing)
   if(reset){
     a = document.getElementById('inputa').value;
-    //document.writeln("your secret friend is: "+array[code[a]], 10, 90);
-    $.font = "50px Arial";
-    $.fillStyle = "red";
-    $.fillText("your secret friend is: "+array[code[a]]);
-    var charStr = String.fromCharCode("your secret friend is: "+array[code[a]]);
-    alert("Test");
-
-
-ctx.font = "20px Georgia";
-ctx.fillText("Hello World!", 10, 50);
-    
+    document.writeln("your secret friend is: "+array[code[a]], 10, 90);
     reset = false;
   }
   
