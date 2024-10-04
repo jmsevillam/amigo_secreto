@@ -1,12 +1,13 @@
 var a = 1
 var reset = false;
+var a = ["a", "b", "c"];
 
 function animate(){
 
 //assign inputs to variables on reset (new drawing)
   if(reset){
     a = document.getElementById('inputa').value;
-    document.writeln("your secret friend is: "+a);
+    document.writeln("your secret friend is: "+array[a]);
     reset = false;
   }
   
