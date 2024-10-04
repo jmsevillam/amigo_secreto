@@ -6,7 +6,7 @@ function animate(){
 //assign inputs to variables on reset (new drawing)
   if(reset){
     a = document.getElementById('inputa').value;
-
+    document.writeln(a);
     reset = false;
   }
   
