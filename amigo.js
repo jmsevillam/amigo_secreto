@@ -11,6 +11,8 @@ var $ = canv.getContext("2d");
     a = document.getElementById('inputa').value;
     //document.writeln("your secret friend is: "+array[code[a]], 10, 90);
     $.font = "50px Arial";
+    $.fillStyle = "rgb(256,256,256)";
+    $.fillRect (0, 0, 600, 600);
     $.fillStyle = "rgb(0,0,0)";
     $.fillText("your secret friend is: "+array[code[a]]);
     
