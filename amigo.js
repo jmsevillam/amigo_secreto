@@ -8,7 +8,7 @@ var $ = canv.getContext("2d");
 //assign inputs to variables on reset (new drawing)
   if(reset){
     a = document.getElementById('inputa').value;
-    $.writeln("your secret friend is: "+array[a]);
+    document.writeln("your secret friend is: "+array[a]);
     reset = false;
   }
   
