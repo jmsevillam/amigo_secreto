@@ -16,8 +16,10 @@ function animate(){
     alert("Test");
     reset = false;
   }
-  
-  setTimeout("animate();",10);
+  alert("Test");
+    
+  animate();
+  //setTimeout("animate();",10);
 }
 
 //reset canvas if set button is clicked
