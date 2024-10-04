@@ -12,7 +12,8 @@ function animate(){
 //assign inputs to variables on reset (new drawing)
   if(reset){
     a = document.getElementById('inputa').value;
-    document.write("your secret friend is: "+array[code[a]]);
+    //document.write("your secret friend is: "+array[code[a]]);
+    alert("Test");
     reset = false;
   }
   
