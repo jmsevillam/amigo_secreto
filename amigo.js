@@ -1,6 +1,6 @@
 var a = 1
 var reset = false;
-var a = ["a", "b", "c"];
+var array = ["a", "b", "c"];
 
 function animate(){
 
