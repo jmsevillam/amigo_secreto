@@ -16,7 +16,7 @@ function animate(){
     alert("Test inside if reset: "+array[code[a]]);
     reset = false;
   }
-  alert("your secret friend is: "+array[code[a]]);
+  //alert("your secret friend is: "+array[code[a]]);
     
   animate();
   //setTimeout("animate();",10);
