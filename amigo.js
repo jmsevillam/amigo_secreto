@@ -15,7 +15,7 @@ function animate(){
     $.font = "50px Arial";
     $.fillStyle = "rgb(256,256,256)";
     $.fillRect (0, 0, 600, 600);
-    $.fillStyle = "rgb(0,0,0)";
+    $.fillStyle = "red";
     $.fillText("your secret friend is: "+array[code[a]]);
     
     reset = false;
